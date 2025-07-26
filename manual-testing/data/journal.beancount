@@ -1,0 +1,60 @@
+; TD-01
+2025-07-24 * "Verizon Wireless" ""
+  Assets:US:BofA:Checking                            -61.56 USD
+  Expenses:Home:Phone                                 61.56 USD
+
+; TD-02
+2025-07-26 * "Chichipotle" ""
+  Liabilities:US:Chase:Slate                         -40.04 USD
+  Expenses:Food:restaurant                            40.04 USD
+
+; TD-03
+2025-07-26 * "Jewel of Morroco" ""
+  Liabilities:US:Chase:Slate                         -37.51 USD
+  Expenses:Food:Restaurant                            37.51 USD
+  ;Good restaurant
+
+; TD-04
+2025-02-30 * "Verizon Wireless" ""
+  Assets:US:BofA:Checking                            -61.56 USD
+  Expenses:Home:Phone                                 61.56 USD
+
+; TD-05
+2025-07-26 * "Jewel of Morroco" "обед"
+  Liabilities:US:Chase:Slate                         -37.51 USD
+  Expenses:Food:Restaurant                            37.51 USD
+
+; TD-06
+2025-07-24 * "Verizon Wireless" "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec."
+  Assets:US:BofA:Checking                            -61.56 USD
+  Expenses:Home:Phone                                 61.56 USD
+
+; TD-07
+2050-01-01 * "Starbucks" ""
+  Assets:US:BofA:Checking                            -10.05 USD
+  Expenses:Food:Coffee                                10.05 USD
+
+; TD-08
+2050-01-01 * ""
+  Assets:US:BofA:Checking                              1000 USD
+  Liabilities:AccountsPayable                         -5000 USD
+
+; TD-09
+2010-07-24 * "Verizon Wireless" ""
+  Assets:US:BofA:Checking                            -61.56 USD
+  Expenses:Home:Phone                                 61.56 USD
+
+; TD-10
+2025-07-26 * "Starbucks" ""
+  Assets:US:BofA:Checking                             -9.05 USD
+  Expenses:Food:Coffee                                10.05 USD
+
+; TD-11
+2025-07-26 * "Legal Seafood" ""
+  Liabilities:US:Chase:Slate                         -33.82 USD
+  Expenses:Food:restaurant                            33.82 USD
+
+; TD-12
+2025-07-26 * ""
+  Assets:Test:EmptyAccount                            10000 USD
+  Income:US:Hoogle:GroupTermLife                     -10000 USD
