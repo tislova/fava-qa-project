@@ -7,19 +7,21 @@ The goal is to validate key logic and user interface components through manual t
 
 ## Project Structure
 
+```plaintext
 fava-qa-project/
-    fava/
-        __init__.py
-        helpers.py
-    tests/
-        test_cases.py
-    manual-testing/ 
-        test_cases.xlsx 
-        data/ 
-            example.beancount
-            journal.beancount
-    .gitignore
-    README.md
+├── fava/
+│   ├── __init__.py
+│   └── helpers.py
+├── tests/
+│   └── test_cases.py
+├── manual-testing/
+│   ├── test_cases.xlsx
+│   └── data/
+│       ├── example.beancount
+│       └── journal.beancount
+├── .gitignore
+└── README.md
+```
 
 
 ## Features Tested
@@ -28,7 +30,7 @@ fava-qa-project/
 - **Filtering** – Tested filtering by payee, tag, and invalid inputs.
 - **Accounts View** – Checked account hierarchy and balance rendering.
 - **Reports** – Validated Balance Sheet and Income Statement views.
-- **Editor** – Confirmed editing and saving of .beancount files.
+- **Editor** – Confirmed editing and saving of `.beancount` files.
 - **Responsiveness** – Verified layout on desktop, tablet, and mobile.
 - **Accessibility** – Reviewed basic keyboard and visual accessibility.
 
