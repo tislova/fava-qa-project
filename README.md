@@ -84,21 +84,18 @@ fava-qa-project/
 
 ## Running the Tests
 
-**Prerequisites:** Python 3.10+, Chrome browser, and a running Fava instance.
+**Prerequisites:** Python 3.10+, Chrome browser, ChromeDriver matching your Chrome version, and a running Fava instance at `http://localhost:5000` for the Selenium tests.
 
 ```bash
 #Install dependencies
 pip install pytest selenium
 
-#Make sure ChromeDriver matches your Chrome version
-#Download from: https://chromedriver.chromium.org/downloads
+#Download ChromeDriver
+#https://chromedriver.chromium.org/downloads
 
-#Run the automated suite
-pytest tests/test_cases.py --driver Chrome
+#Run the full suite
+pytest tests/test_cases.py
 ```
-
-For manual tests, open `manual-testing/test_cases.xlsx` and follow the 
-documented steps.
 
 ## Skills Demonstrated
 
